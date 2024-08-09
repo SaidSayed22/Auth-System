@@ -1,6 +1,6 @@
 import React, { createContext, useState } from 'react';
 import { useCookies } from 'react-cookie';
-import { AuthContextType, User } from '../types/AuthUserTypes';
+import { AuthContextType, User } from '../types/Types';
 
 
 export const AuthContext = createContext<AuthContextType>({

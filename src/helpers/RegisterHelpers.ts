@@ -3,9 +3,8 @@
 import axiosInstance from "../apis/axiosConfig";
 import Swal from "sweetalert2";
 import { RegisterSuccessSwal, RegisterFailedSwal } from "../swals/Swals";
-import { RegisterFormData } from "../types/RegisterFormTypes";
-import { KnownError } from "../types/RegisterFormTypes";
 import { UseFormSetError } from "react-hook-form";
+import { KnownError, RegisterFormData } from "../types/Types";
 
 export const submitRegister = async (data: RegisterFormData, navigate: (path: string) => void,   setError: UseFormSetError<RegisterFormData>
 ) => {

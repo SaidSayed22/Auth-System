@@ -2,7 +2,7 @@
 import { Button, TextField } from "@mui/material";
 import { useLogin } from "../helpers/LoginHelpers";
 import { useForm } from "react-hook-form";
-import { LoginFormData } from "../types/LoginFormTypes";
+import { LoginFormData } from "../types/Types";
 
 
 const Login: React.FC = () => {

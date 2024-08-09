@@ -4,10 +4,10 @@ import { Button, TextField } from "@mui/material";
 import React from "react";
 import { SubmitHandler, useForm } from "react-hook-form";
 import { useNavigate } from "react-router-dom";
-import { RegisterFormData } from "../types/RegisterFormTypes";
 import { EGYPTIAN_PHONE_PATTERN, EMAIL_PATTERN, PASSWORD_PATTERN } from "../utils/patterns";
 
 import { submitRegister } from "../helpers/RegisterHelpers";
+import { RegisterFormData } from "../types/Types";
 
 
 const Register: React.FC = () => {

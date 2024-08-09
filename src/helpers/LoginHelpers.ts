@@ -8,11 +8,8 @@ import Swal from "sweetalert2";
 import { useNavigate } from "react-router-dom";
 import { SubmitHandler } from "react-hook-form";
 import { LoginFailedSwal, LoginSuccessSwal } from "../swals/Swals";
+import { LoginFormData } from "../types/Types";
 
-interface LoginFormData {
-  username: string;
-  password: string;
-}
 
 
 export const useLogin = () => {
